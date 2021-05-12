@@ -1,0 +1,46 @@
+[{
+  "id": "Optimol_Oil_V90",
+  "sampleAttr": {
+    "sm_shape_type": {
+      "type": "SingleValue",
+      "id": "sm_shape_type",
+      "value": "lubricant",
+      "varType": "sm_shape_type"
+    },
+    "sm_manufacturer_id": {
+      "type": "SingleValue",
+      "id": "sm_manufacturer_id",
+      "value": "OPTIMOL",
+      "varType": "sm_manufacturer_id"
+    },
+     "sm_core_material_id": {
+      "type": "SingleValue",
+      "id": "sm_core_material_id",
+      "value": "Hydrocarbon Destillate(90%)",
+      "varType": "sm_core_material_id"
+    }
+  }
+},
+{
+  "id": "Optimol_Oil_V92",
+  "sampleAttr": {
+    "sm_shape_type": {
+      "type": "SingleValue",
+      "id": "sm_shape_type",
+      "value": "lubricant",
+      "varType": "sm_shape_type"
+    },
+    "sm_manufacturer_id": {
+      "type": "SingleValue",
+      "id": "sm_manufacturer_id",
+      "value": "OPTIMOL",
+      "varType": "sm_manufacturer_id"
+    },
+     "sm_core_material_id": {
+      "type": "SingleValue",
+      "id": "sm_core_material_id",
+      "value": "Hydrocarbon Destillate(92%)",
+      "varType": "sm_core_material_id"
+    }
+  }
+}]

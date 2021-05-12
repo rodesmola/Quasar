@@ -1,13 +1,14 @@
 <template>
-    <q-page class="q-gutter-md q-pt-md q-pb-md row content-strech justify-center"> <!-- flex-center -->
-                
-        <q-card class="col-3 ">              
+
+    <q-page class="q-gutter-md q-pt-lg q-pb-md row content-strech justify-center"> <!-- flex-center -->
+
+        <q-card class="col-xl-3 col-lg-4 col-md-5 col-xs-11">              
             <q-intersection once transition="scale">
                 <q-toolbar class="text-secondary">      
                     <q-toolbar-title>
                         Contact information
                     </q-toolbar-title>
-                    <q-btn class="text-primary" flat round dense icon="settings" />
+                    <q-btn class="text-primary" flat round dense icon="settings" @click="isDialog = !isDialog"/>
                 </q-toolbar>
 
                 <q-card-section>
@@ -85,7 +86,7 @@
         </q-card> 
         <!--CONTACT INFORMATION END-->
 
-        <q-card class="col-3">              
+        <q-card class="col-xl-3 col-lg-4 col-md-5 col-xs-11">            
             <q-intersection once transition="scale">
                 <q-toolbar class="text-secondary">      
                     <q-toolbar-title>
@@ -157,7 +158,7 @@
             </q-intersection> 
         </q-card> 
         <!--CONTACT ORGANIZATION END-->    
-        <q-card class="col-3">              
+         <q-card class="col-xl-3 col-lg-3 col-md-4 col-xs-11">      
             <q-intersection once transition="scale">
                 <q-toolbar class="text-secondary">      
                     <q-toolbar-title>
@@ -207,8 +208,8 @@
                 </q-card-section>
             </q-intersection> 
         </q-card> 
-        <!--check box-->  
-        <q-card class="col-4">              
+        <!--check box--> 
+        <q-card class="col-xl-3 col-lg-4 col-md-6 col-xs-11">         
             <q-intersection once transition="scale">
                 <q-toolbar class="text-secondary">      
                     <q-toolbar-title>
@@ -302,8 +303,8 @@
             </q-intersection> 
         </q-card> 
         <!--INVOICE-->  
-
-        <q-card class="col-5 ">              
+        
+        <q-card class="col-xl-6 col-lg-7 col-md-10 col-xs-11">             
             <q-intersection once transition="scale">
                 <q-toolbar class="text-secondary">      
                     <q-toolbar-title>
@@ -365,12 +366,7 @@
                             <q-item-section>        
                                 <q-item-label caption>Fax</q-item-label>
                                 <q-item-label>567321</q-item-label>
-                            </q-item-section>
-                            <q-item-section side>
-                                <q-avatar>
-                                    <q-btn class="text-primary" flat round dense icon="settings" />
-                                </q-avatar>
-                            </q-item-section>
+                            </q-item-section>                          
                                                      
                         </q-item>
                         <q-separator spaced inset />
@@ -414,30 +410,107 @@
                                 <q-item-label caption>Fax</q-item-label>
                                 <q-item-label>567321</q-item-label>
                             </q-item-section>
-                            <q-item-section side>
-                                <q-avatar>
-                                    <q-btn class="text-primary" flat round dense icon="settings" />
-                                </q-avatar>
-                            </q-item-section>
                                                      
                         </q-item>
-
-                  
-                        
-
+                                       
 
                     </q-list>                                                                                                
 
                 </q-card-section>
             </q-intersection> 
         </q-card> 
-        <!--INVOICE--> 
+        <!--CONTACT PERSON--> 
 
+        <q-dialog v-model="isDialog" persistent >
+            <q-card style="width: 700px; max-width: 80vw;">
+                <q-toolbar class="text-white bg-primary">      
+                    <q-toolbar-title>
+                        Edit contact information
+                    </q-toolbar-title>                    
+                </q-toolbar>
 
+                <q-card-section >
+                                    
+                    <form @submit.prevent.stop="onSubmit" @reset.prevent.stop="onReset" class="q-gutter-md q-pa-md row content-start">         
+                        <div class="col-xs-7">       
+                                <q-input ref="legal_name" v-model="userCredentials.email" dense filled label="Legal name" lazy-rules
+                                    :rules="[ val => val && val.length > 0 || 'Please type something']">   
+                                    <template v-slot:prepend>
+                                      <q-icon name="account_balance" />
+                                    </template>                                     
+                                </q-input>        
+                            </div>   
 
+                            <div class="col-xs-4">  
+                                <q-input ref="short_name" v-model="userCredentials.password" dense filled label="Short name" lazy-rules
+                                    :rules="[ val => val && val.length > 0 || 'Please type something']">                                        
+                                    <template v-slot:prepend>
+                                      <q-icon name="domain" />
+                                    </template>                                      
+                                </q-input>            
+                            </div> 
+
+                            <div class="col-xs-7">  
+                                <q-input ref="department" v-model="userCredentials.password" dense filled label="Department" lazy-rules
+                                    :rules="[ val => val && val.length > 0 || 'Please type something']">                 
+                                    <template v-slot:prepend>
+                                      <q-icon name="card_travel" />
+                                    </template>                                                             
+                                </q-input>            
+                            </div> 
+
+                            <div class="col-xs-4">  
+                                <q-input ref="web" v-model="userCredentials.password" dense filled label="Web" lazy-rules
+                                    :rules="[ val => val && val.length > 0 || 'Please type something']"> 
+                                    <template v-slot:prepend>
+                                      <q-icon name="language" />
+                                    </template>                                                                             
+                                </q-input>            
+                            </div> 
+
+                            <div class="col-xs-4">  
+                                <q-input ref="email" v-model="userCredentials.password" dense filled label="Email" lazy-rules
+                                    :rules="[ val => val && val.length > 0 || 'Please type something']">    
+                                    <template v-slot:prepend>
+                                      <q-icon name="email" />
+                                    </template>                                                                          
+                                </q-input>            
+                            </div> 
+
+                            <div class="col-xs-4">  
+                                <q-input ref="phone" v-model="userCredentials.password" dense filled label="Phone" lazy-rules
+                                    :rules="[ val => val && val.length > 0 || 'Please type something']">    
+                                    <template v-slot:prepend>
+                                      <q-icon name="call" />
+                                    </template>                                                                          
+                                </q-input>            
+                            </div> 
+
+                            <div class="col-xs-3">  
+                                <q-input ref="fax" v-model="userCredentials.password" dense filled label="Fax" lazy-rules
+                                    :rules="[ val => val && val.length > 0 || 'Please type something']">  
+                                    <template v-slot:prepend>
+                                      <q-icon name="print" />
+                                    </template>                                                                            
+                                </q-input>            
+                            </div>
+
+                    </form>
+                </q-card-section>
+
+                <q-card-actions align="right">
+                    <q-btn  label="Save" glossy color="secondary" v-close-popup >
+                        <template v-slot:loading>
+                            <q-spinner-hourglass class="on-left" />
+                                Loading...
+                        </template>
+                    </q-btn>
+                </q-card-actions>
+                
+            </q-card>
+        </q-dialog>
 
   </q-page>
-
 
 
 </template>
@@ -453,7 +526,8 @@ export default {
             email: '',
             password: ''
         },
-        userProfile: {}
+        userProfile: {},
+        isDialog: false,
     }),
     methods: {
 getUserProfile(){
@@ -463,10 +537,12 @@ getUserProfile(){
     created(){
         if(this.$store.state.isLogged){
             this.userProfile = this.$store.state.user;
-            console.log(this.$store.state.user)
-            console.log("logged")
+            // console.log(this.$store.state.user)
+            // console.log("logged")
             //this.getUserProfile(this.$$store.state.kc)
         }
+        //console.log(this.$router.currentRoute)
+        this.$eventBus.$emit('is-children');  
     }
 }
 </script>

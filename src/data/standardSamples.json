@@ -1,0 +1,108 @@
+[{
+  "id": "100CrBall_10mm",
+  "status":"New",
+  "sampleAttr": {
+    "sm_shape_type": {
+      "type": "SingleValue",
+      "id": "sm_shape_type",
+      "value": "ball",
+      "varType": "sm_shape_type"
+    },
+    "sm_polish_grade": {
+      "type": "SingleValue",
+      "id": "sm_polish_grade",
+      "value": "10",
+      "varType": "sm_polish_grade"
+    },
+    "sm_manufacturer_id": {
+      "type": "SingleValue",
+      "id": "sm_manufacturer_id",
+      "value": "OPTIMOL",
+      "varType": "sm_manufacturer_id"
+    },
+    "sm_o_diameter_1": {
+      "type": "SingleValue",
+      "id": "sm_o_diameter_1",
+      "value": "10.0",
+      "varType": "sm_o_diameter_1"
+    },
+    "sm_core_material_id": {
+      "type": "SingleValue",
+      "id": "sm_core_material_id",
+      "value": "100Cr6",
+      "varType": "sm_core_material_id"
+    }
+  }
+},
+{
+  "id": "100CrBall_20mm",
+  "status":"New",
+  "sampleAttr": {
+    "sm_shape_type": {
+      "type": "SingleValue",
+      "id": "sm_shape_type",
+      "value": "ball",
+      "varType": "sm_shape_type"
+    },
+    "sm_polish_grade": {
+      "type": "SingleValue",
+      "id": "sm_polish_grade",
+      "value": "10",
+      "varType": "sm_polish_grade"
+    },
+    "sm_manufacturer_id": {
+      "type": "SingleValue",
+      "id": "sm_manufacturer_id",
+      "value": "OPTIMOL",
+      "varType": "sm_manufacturer_id"
+    },
+    "sm_o_diameter_1": {
+      "type": "SingleValue",
+      "id": "sm_o_diameter_1",
+      "value": "20.0",
+      "varType": "sm_o_diameter_1"
+    },
+    "sm_core_material_id": {
+      "type": "SingleValue",
+      "id": "sm_core_material_id",
+      "value": "100Cr6",
+      "varType": "sm_core_material_id"
+    }
+  }
+},
+{
+  "id": "100CrDisc_7.8mm",
+  "status":"New",
+  "sampleAttr": {
+    "sm_shape_type": {
+      "type": "SingleValue",
+      "id": "sm_shape_type",
+      "value": "disc",
+      "varType": "sm_shape_type"
+    },
+    "sm_manufacturer_id": {
+      "type": "SingleValue",
+      "id": "sm_manufacturer_id",
+      "value": "OPTIMOL",
+      "varType": "sm_manufacturer_id"
+    },
+    "sm_o_diameter_1": {
+      "type": "SingleValue",
+      "id": "sm_o_diameter_1",
+      "value": "7.8",
+      "varType": "sm_o_diameter_1"
+    },
+    "sm_o_diameter_1": {
+      "type": "SingleValue",
+      "id": "sm_height_1",
+      "value": "2",
+      "varType": "sm_height_1"
+    },
+    "sm_core_material_id": {
+      "type": "SingleValue",
+      "id": "sm_core_material_id",
+      "value": "100Cr6",
+      "varType": "sm_core_material_id"
+    }
+  }
+}]

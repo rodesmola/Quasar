@@ -1,0 +1,312 @@
+[{
+  "id": "Std_RRT",
+  "desc": "RoundRobinTest (SRV)",
+  "steps": {
+    "TriboDemo_1st_run": {
+      "cycle": 3,
+      "id": "TriboDemo_1st_run",
+      "desc": "First run: Initial pre-Load of 50 for 30s",
+      "type": "Tribometer Run",
+      "results": {},
+      "stepParameters": {
+        "test_env_temp_1": {
+          "type": "SingleValue",
+          "id": "test_env_temp_1",
+          "value": "80.0",
+          "varType": "test_env_temp_1"
+        },
+        "test_frequency_1": {
+          "type": "SingleValue",
+          "id": "test_frequency_1",
+          "value": "50.0",
+          "varType": "test_frequency_1"
+        },
+        "test_load_1": {
+          "type": "SingleValue",
+          "id": "test_load_1",
+          "value": "300.0",
+          "varType": "test_load_1"
+        },
+        "test_motion_pattern": {
+          "type": "SingleValue",
+          "id": "test_motion_pattern",
+          "value": "reciprocating",
+          "varType": "test_motion_pattern"
+        },
+        "test_result_vars": {
+          "type": "SingleValue",
+          "id": "test_result_vars",
+          "value": "dat_file,dat_wear_scar_mb_1,dat_wear_scar_cb_1,dat_wear_volume_mb_2",
+          "varType": "test_result_vars"
+        },
+        "test_step_duration": {
+          "type": "SingleValue",
+          "id": "test_step_duration",
+          "value": "7200",
+          "varType": "test_step_duration"
+        },
+        "test_stroke_length_1": {
+          "type": "SingleValue",
+          "id": "test_stroke_length_1",
+          "value": "1",
+          "varType": "test_stroke_length_1"
+        }
+      }
+    },
+    "TriboDemo_2nd_run": {
+      "cycle": 4,
+      "id": "TriboDemo_2nd_run",
+      "desc": "Second run: Turn 90 degrees disc",
+      "status": "Requested",
+      "dateLog": {},
+      "equipment": "TEK_SRV3",
+      "type": "Tribometer Run",
+      "results": {},
+      "stepParameters": {
+        "test_env_temp_1": {
+          "type": "SingleValue",
+          "id": "test_env_temp_1",
+          "value": "80.0",
+          "varType": "test_env_temp_1"
+        },
+        "test_frequency_1": {
+          "type": "SingleValue",
+          "id": "test_frequency_1",
+          "value": "50.0",
+          "varType": "test_frequency_1"
+        },
+        "test_load_1": {
+          "type": "SingleValue",
+          "id": "test_load_1",
+          "value": "300.0",
+          "varType": "test_load_1"
+        },
+        "test_motion_pattern": {
+          "type": "SingleValue",
+          "id": "test_motion_pattern",
+          "value": "reciprocating",
+          "varType": "test_motion_pattern"
+        },
+        "test_result_vars": {
+          "type": "SingleValue",
+          "id": "test_result_vars",
+          "value": "dat_file,dat_wear_scar_mb_1,dat_wear_scar_cb_1,dat_wear_volume_mb_2",
+          "varType": "test_result_vars"
+        },
+        "test_step_duration": {
+          "type": "SingleValue",
+          "id": "test_step_duration",
+          "value": "7200",
+          "varType": "test_step_duration"
+        },
+        "test_stroke_length_1": {
+          "type": "SingleValue",
+          "id": "test_stroke_length_1",
+          "value": "1",
+          "varType": "test_stroke_length_1"
+        }
+      }
+    },
+    "TriboDemo_3rd_run": {
+      "cycle": 5,
+      "id": "TriboDemo_3rd_run",
+      "desc": "Third run: Turn 90 degrees disc",
+      "status": "Requested",
+      "dateLog": {},
+      "equipment": "TEK_SRV3",
+      "type": "Tribometer Run",
+      "results": {},
+      "stepParameters": {
+        "test_env_temp_1": {
+          "type": "SingleValue",
+          "id": "test_env_temp_1",
+          "value": "80.0",
+          "varType": "test_env_temp_1"
+        },
+        "test_frequency_1": {
+          "type": "SingleValue",
+          "id": "test_frequency_1",
+          "value": "50.0",
+          "varType": "test_frequency_1"
+        },
+        "test_load_1": {
+          "type": "SingleValue",
+          "id": "test_load_1",
+          "value": "300.0",
+          "varType": "test_load_1"
+        },
+        "test_motion_pattern": {
+          "type": "SingleValue",
+          "id": "test_motion_pattern",
+          "value": "reciprocating",
+          "varType": "test_motion_pattern"
+        },
+        "test_result_vars": {
+          "type": "SingleValue",
+          "id": "test_result_vars",
+          "value": "dat_file,dat_wear_scar_mb_1,dat_wear_scar_cb_1,dat_wear_volume_mb_2",
+          "varType": "test_result_vars"
+        },
+        "test_step_duration": {
+          "type": "SingleValue",
+          "id": "test_step_duration",
+          "value": "7200",
+          "varType": "test_step_duration"
+        },
+        "test_stroke_length_1": {
+          "type": "SingleValue",
+          "id": "test_stroke_length_1",
+          "value": "1",
+          "varType": "test_stroke_length_1"
+        }
+      }
+    },
+    "TriboDemo_4th_run": {
+      "cycle": 6,
+      "id": "TriboDemo_4th_run",
+      "desc": "First run: Initial pre-Load of 50 for 30s",
+      "status": "Requested",
+      "dateLog": {},
+      "equipment": "TEK_SRV3",
+      "type": "Tribometer Run",
+      "results": {},
+      "stepParameters": {
+        "test_env_temp_1": {
+          "type": "SingleValue",
+          "id": "test_env_temp_1",
+          "value": "80.0",
+          "varType": "test_env_temp_1"
+        },
+        "test_frequency_1": {
+          "type": "SingleValue",
+          "id": "test_frequency_1",
+          "value": "50.0",
+          "varType": "test_frequency_1"
+        },
+        "test_load_1": {
+          "type": "SingleValue",
+          "id": "test_load_1",
+          "value": "300.0",
+          "varType": "test_load_1"
+        },
+        "test_motion_pattern": {
+          "type": "SingleValue",
+          "id": "test_motion_pattern",
+          "value": "reciprocating",
+          "varType": "test_motion_pattern"
+        },
+        "test_result_vars": {
+          "type": "SingleValue",
+          "id": "test_result_vars",
+          "value": "dat_file,dat_wear_scar_mb_1,dat_wear_scar_cb_1,dat_wear_volume_mb_2",
+          "varType": "test_result_vars"
+        },
+        "test_step_duration": {
+          "type": "SingleValue",
+          "id": "test_step_duration",
+          "value": "7200",
+          "varType": "test_step_duration"
+        },
+        "test_stroke_length_1": {
+          "type": "SingleValue",
+          "id": "test_stroke_length_1",
+          "value": "1",
+          "varType": "test_stroke_length_1"
+        }
+      }
+    },
+    "TriboDemo_ATC": {
+      "cycle": 7,
+      "id": "TriboDemo_ATC",
+      "desc": "Additional characterization/results after all runs",
+      "status": "Requested",
+      "dateLog": {},
+      "equipment": null,
+      "type": "Image",
+      "results": {},
+      "stepParameters": {}
+    },
+    "TriboDemo_BTC": {
+      "cycle": 2,
+      "id": "TriboDemo_BTC",
+      "desc": "Prior to test characterization. Optical image and roughness",
+      "status": "Requested",
+      "dateLog": {},
+      "equipment": null,
+      "type": "Image",
+      "results": {},
+      "stepParameters": {
+        "test_result_vars": {
+          "type": "SingleValue",
+          "id": "test_result_vars",
+          "value": "dat_roughness_1",
+          "varType": "test_result_vars"
+        }
+      }
+    },
+    "TriboDemo_SP": {
+      "cycle": 1,
+      "id": "TriboDemo_SP",
+      "desc": "Sample preparation. Ensure that the test load unit is in the release position (refer to your operating manual for details). Place 0.3 mL of the lubricating oil to be tested on the cleaned disk. Then install the disk (place on the block). Tighten the fastening screw until resistance just begins. Place the cleaned ball, using the tweezers, in the disassembled, cleaned, and dried ball holder. Tighten the fastening screw until resistance just begins. Install the ball holder and test ball in the test chamber",
+      "status": "Requested",
+      "dateLog": {},
+      "equipment": null,
+      "type": "Manual",
+      "results": {},
+      "stepParameters": {
+        "test_result_vars": {
+          "type": "SingleValue",
+          "id": "test_result_vars",
+          "value": "dat_comment",
+          "varType": "test_result_vars"
+        }
+      }
+    }
+  }
+},{
+  "id": "Single_SRV3",
+  "desc": "Single Test Run(SRV)",
+  "steps": {
+    "1": {
+      "cycle": 1,
+      "id": "1",
+      "desc": "",
+      "type": "Tribometer Run",
+      "results": {},
+      "stepParameters": {
+        "test_frequency_1": {
+          "type": "SingleValue",
+          "id": "test_frequency_1",
+          "varType": "test_frequency_1"
+        },
+        "test_load_1": {
+          "type": "SingleValue",
+          "id": "test_load_1",
+          "varType": "test_load_1"
+        },
+        "test_motion_pattern": {
+          "type": "SingleValue",
+          "id": "test_motion_pattern",
+          "value": "reciprocating",
+          "varType": "test_motion_pattern"
+        },
+        "test_step_duration": {
+          "type": "SingleValue",
+          "id": "test_step_duration",
+          "varType": "test_step_duration"
+        },
+        "test_stroke_length_1": {
+          "type": "SingleValue",
+          "id": "test_stroke_length_1",
+          "varType": "test_stroke_length_1"
+        },
+        "test_result_vars": {
+          "type": "SingleValue",
+          "id": "test_result_vars",
+          "value": "dat_file,dat_wear_scar_mb_1,dat_wear_scar_cb_1,dat_wear_volume_mb_2",
+          "varType": "test_result_vars"
+        }
+      }
+    }
+  }
+}]

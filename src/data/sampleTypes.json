@@ -1,0 +1,83 @@
+[{
+  "id": "Ball",
+  "status":"New",
+  "sampleAttr": {
+    "sm_shape_type": {
+      "type": "SingleValue",
+      "id": "sm_shape_type",
+      "value": "ball",
+      "varType": "sm_shape_type"
+    },
+    "sm_polish_grade": {
+      "type": "SingleValue",
+      "id": "sm_polish_grade",
+      "varType": "sm_polish_grade"
+    },
+    "sm_o_diameter_1": {
+      "type": "SingleValue",
+      "id": "sm_o_diameter_1",
+      "varType": "sm_o_diameter_1"
+    },
+    "sm_core_material_id": {
+      "type": "SingleValue",
+      "id": "sm_core_material_id",
+      "varType": "sm_core_material_id"
+    }
+  }
+},{
+  "id": "Flat",
+  "status":"New",
+  "sampleAttr": {
+    "sm_shape_type": {
+      "type": "SingleValue",
+      "id": "sm_shape_type",
+      "value": "flat",
+      "varType": "sm_shape_type"
+    },
+    "sm_length_1": {
+      "type": "SingleValue",
+      "id": "sm_length_1",
+      "varType": "sm_length_1"
+    },
+    "sm_width_1": {
+      "type": "SingleValue",
+      "id": "sm_width_1",
+      "varType": "sm_width_1"
+    },
+	"sm_height_1": {
+      "type": "SingleValue",
+      "id": "sm_height_1",
+      "varType": "sm_height_1"
+    },
+    "sm_core_material_id": {
+      "type": "SingleValue",
+      "id": "sm_core_material_id",
+      "varType": "sm_core_material_id"
+    },"sm_coating_material_id_1": {
+      "type": "SingleValue",
+      "id": "sm_coating_material_id_1",
+      "varType": "sm_coating_material_id_1"
+    }
+  }
+},
+{
+  "id": "Oil",
+  "status":"New",
+  "sampleAttr": {
+    "sm_shape_type": {
+      "type": "SingleValue",
+      "id": "sm_shape_type",
+      "value": "oil",
+      "varType": "sm_shape_type"
+    },"sm_core_material_id": {
+      "type": "SingleValue",
+      "id": "sm_core_material_id",
+      "varType": "sm_core_material_id"
+    },"sm_coating_material_id_1": {
+      "type": "SingleValue",
+      "id": "sm_coating_material_id_1",
+      "varType": "sm_coating_material_id_1"
+    }
+  }
+}
+]

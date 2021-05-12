@@ -3,13 +3,13 @@ import Vue from 'vue'
 import './styles/quasar.sass'
 import 'quasar/dist/quasar.ie.polyfills'
 import '@quasar/extras/material-icons/material-icons.css'
-import { Quasar } from 'quasar'
+import { Quasar, Notify } from 'quasar'
 
 Vue.use(Quasar, {
   config: {
     brand: {
-      primary: '#4d69b0',
-      secondary: '#eb8b15',
+      primary: '#4d69b0',//'#2f4050',
+      secondary: '#eb8b15',//'#19aa8d', 
       accent: '#39babd',
 
       dark: '#545454',
@@ -21,5 +21,6 @@ Vue.use(Quasar, {
     }
   },
   plugins: {
+    Notify
   }
  })
